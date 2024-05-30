@@ -1,4 +1,4 @@
-public class java0530_4 {
+public class Java0530_4 {
 
   public static void main(String[] args) {
     /**
@@ -31,28 +31,32 @@ public class java0530_4 {
     // int의 최대값 2147483647
 //    int a = 2147483648; // 초과
 
-    // 원시타입
-    int a = 1;
-    int v = a;
-    System.out.println(a); // 1
-    System.out.println(v); // 1
+//    // 원시타입
+//    int a = 1;
+//    int v = a;
+//    System.out.println(a); // 1
+//    System.out.println(v); // 1
+//
+//    char c1 ='A';
+//    char c2 = 65;
+//    char c3 = '\u0041';
+//
+//    char c4 = '가';
+//    char c5 = 44032;
+//    char c6 = '\uac00';
+//
+//    int unicode = c1;
+//
+//    System.out.println(c1);
+//    System.out.println(c2);
+//    System.out.println(c3);
+//    System.out.println(c4);
+//    System.out.println(c5);
+//    System.out.println(c6);
+//    System.out.println(unicode);
 
-    char c1 ='A';
-    char c2 = 65;
-    char c3 = '\u0041';
-
-    char c4 = '가';
-    char c5 = 44032;
-    char c6 = '\uac00';
-
-    int unicode = c1;
-
-    System.out.println(c1);
-    System.out.println(c2);
-    System.out.println(c3);
-    System.out.println(c4);
-    System.out.println(c5);
-    System.out.println(c6);
-    System.out.println(unicode);
+    short sVal = 10;
+    short result = (short)(sVal + 10);
+    System.out.println(result);
   }
 }

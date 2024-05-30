@@ -1,4 +1,4 @@
-public class java0530_3 {
+public class Java0530_3 {
 
   public static void main(String[] args) {
 
