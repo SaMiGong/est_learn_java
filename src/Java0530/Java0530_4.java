@@ -1,3 +1,5 @@
+package Java0530;
+
 public class Java0530_4 {
 
   public static void main(String[] args) {

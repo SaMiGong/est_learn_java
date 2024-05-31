@@ -1,6 +1,4 @@
-import java.security.spec.RSAOtherPrimeInfo;
-import java.util.Arrays;
-import java.util.List;
+package Java0530;
 
 public class Java0530_6 {
 
