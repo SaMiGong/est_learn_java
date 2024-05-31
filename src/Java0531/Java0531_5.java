@@ -29,19 +29,19 @@ public class Java0531_5 {
 //    System.out.println("전위 감소 연산자: " + (--a));
 //    System.out.println("후위 감소 연산자: " + (b--));
 
-    boolean isRaining = true;
-
-    if(isRaining){
-      System.out.println("하늘에서 비가와요");
-    }
-    if(!isRaining){
-      System.out.println("김태희가 안옵니다.....");
-    }
-  }
-  boolean isSunny = false;
-  if(!isSunny){
-    System.out.println("날씨가 맑아요");
-  } else{
-    System.out.println("날씨가 흐려요");
+//    boolean isRaining = true;
+//
+//    if(isRaining){
+//      System.out.println("하늘에서 비가와요");
+//    }
+//    if(!isRaining){
+//      System.out.println("김태희가 안옵니다.....");
+//    }
+//  }
+//  boolean isSunny = false;
+//  if(!isSunny){
+//    System.out.println("날씨가 맑아요");
+//  } else{
+//    System.out.println("날씨가 흐려요");
   }
 }

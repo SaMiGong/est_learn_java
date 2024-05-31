@@ -17,11 +17,12 @@ public class Java0531_2 {
     //    System.out.print(findChar.charAt(16));
     //    System.out.print(findChar.charAt(17)); // hobby
 
-    //    // ~문자를 ~문자로 바꾸기
-    //    String a = "Hello World! Hello World! Hello World!";
-    //    System.out.println(a.replaceAll("World", "Java"));
-    //    System.out.println(a.replace("World", "Java"));
-    //    System.out.println(a.replaceFirst("World", "Java"));
+        // ~문자를 ~문자로 바꾸기
+        String a = "Hello World! Hello World! Hello World!";
+        System.out.println(a.replaceAll("World", "Java"));
+        System.out.println(a.replace("World", "Java"));
+        System.out.println(a.replaceFirst("World", "Java"));
+
 
     //    // substring
     //    String a = "WEEEE ASKE ;ND";
@@ -29,16 +30,16 @@ public class Java0531_2 {
     //    System.out.print(a.substring(8, 10));
     //    System.out.print(a.substring(12, 14));
 
-    // split 물어봐야함
-    String a = "a:b:c:d";
-    String[] split = a.split(":");
-
-    // concat
-    String result = "Hello";
-    result = result + "!"; // 똑같은거
-    System.out.println(result+"!"); // 똑같은거
-    System.out.println("-================");
-    String concat = result.concat("!");
-    System.out.println(concat);
+//    // split 물어봐야함
+//    String a = "a:b:c:d";
+//    String[] split = a.split(":");
+//
+//    // concat
+//    String result = "Hello";
+//    result = result + "!"; // 똑같은거
+//    System.out.println(result+"!"); // 똑같은거
+//    System.out.println("-================");
+//    String concat = result.concat("!");
+//    System.out.println(concat);
   }
 }
