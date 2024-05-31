@@ -1,3 +1,5 @@
+package Java0530;
+
 public class Test {
 
 /**
