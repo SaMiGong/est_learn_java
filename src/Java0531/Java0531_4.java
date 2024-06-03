@@ -31,6 +31,8 @@ public class Java0531_4 {
 //    // 100개를 가진 배열
 //    int[] numbers = new int[100]; // 100개를 만들면 다 0으로 초기화됨
 //    System.out.println(numbers[0]);
+    double[] numbers = new double[100];
+    System.out.println(numbers.length);
 
 //    int[] arr2 = new String[1000]; // null 로 초기화
 
