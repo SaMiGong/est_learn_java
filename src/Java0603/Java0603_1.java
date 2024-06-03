@@ -69,14 +69,14 @@ public class Java0603_1 {
     //    System.out.println(a == b); // false
     //    System.out.println(a.equals(b)); // true 참조타입은 equals로 해야함
 
-//    System.out.println('A' < 'B'); // 유니코드도 비교를 함 A = 65, B = 66
+    //    System.out.println('A' < 'B'); // 유니코드도 비교를 함 A = 65, B = 66
 
-    String str1 = "Hello";
-    String str2 = "Hello";
-    String str3 = new String("Hello");
-// 객체가 두개가 생김 객체1 = str1,str2, 객체2 = str3
-    System.out.println(str1 == str2); // true
-    System.out.println(str1 == str3); // false
-    System.out.println(str1.equals(str3)); // true, equals는 값비교
+    //    String str1 = "Hello";
+    //    String str2 = "Hello";
+    //    String str3 = new String("Hello");
+    //// 객체가 두개가 생김 객체1 = str1,str2, 객체2 = str3
+    //    System.out.println(str1 == str2); // true
+    //    System.out.println(str1 == str3); // false
+    //    System.out.println(str1.equals(str3)); // true, equals는 값비교
   }
 }
