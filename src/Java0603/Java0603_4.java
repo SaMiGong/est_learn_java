@@ -99,5 +99,5 @@ public class Java0603_4 {
 
     System.out.println((myScore >= passScore) ? "합격" : "불합격");
   }
-  }
+
 }
