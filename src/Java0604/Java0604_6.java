@@ -43,12 +43,21 @@ public class Java0604_6 {
     //    System.out.println("합계: " + sum);
     //    System.out.println("평균: " + avg);
 
-    String[] names = {"okay2", "asbds", "good2", "romiiiii", "abcde"};
-    for (String i : names){
-      if (names.length >= 5){
-        System.out.println(i);
-      }
-    }
+//    String[] names = {"okay2", "asbds", "good2", "romiiiii", "abcde"};
+//    for (String i : names){
+//      if (names.length >= 5){
+//        System.out.println(i);
+//      }
+//    }
 
+    int i = 0; // 초기화식
+
+    while(i < 10){
+      if(i == 5){
+        continue;
+      }
+      System.out.println(i);
+      i++; // 증감식
+    }
   }
 }
