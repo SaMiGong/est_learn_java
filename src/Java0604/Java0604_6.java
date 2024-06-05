@@ -43,21 +43,34 @@ public class Java0604_6 {
     //    System.out.println("합계: " + sum);
     //    System.out.println("평균: " + avg);
 
-//    String[] names = {"okay2", "asbds", "good2", "romiiiii", "abcde"};
-//    for (String i : names){
-//      if (names.length >= 5){
-//        System.out.println(i);
-//      }
-//    }
+    //    String[] names = {"okay2", "asbds", "good2", "romiiiii", "abcde"};
+    //    for (String i : names){
+    //      if (names.length >= 5){
+    //        System.out.println(i);
+    //      }
+    //    }
 
-    int i = 0; // 초기화식
+    //    int i = 0; // 초기화식
+    //
+    //    while(i < 10){
+    //      if(i == 5){
+    //        continue;
+    //      }
+    //      System.out.println(i);
+    //      i++; // 증감식
+    //    }
 
-    while(i < 10){
-      if(i == 5){
-        continue;
+    //    int count = 1;
+    //    while (count <= 10000) {
+    //      System.out.println(count);
+    //      count++;
+    //    }
+
+    for (int i = 9; i > 1; i--) {
+      System.out.println(i + "단");
+      for (int j = 1; j <= 9; j++) {
+        System.out.println(i + " * " + j + " = " + (i * j));
       }
-      System.out.println(i);
-      i++; // 증감식
     }
   }
 }
