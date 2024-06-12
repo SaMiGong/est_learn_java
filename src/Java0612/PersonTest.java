@@ -5,8 +5,8 @@ import Java0612.p1.Person;
 public class PersonTest {
   public static void main(String[] args) {
 
-    Person person1 = new Person("승조", 25, "male");
-    Person person2 = new Person("max", 21, "male");
+//    Person person1 = new Person("승조", 25, "male");
+//    Person person2 = new Person("max", 21, "male");
 
 
 //    System.out.println(Person.GENDER);
@@ -20,6 +20,6 @@ public class PersonTest {
     //        person2.sayHello();
     //        person2.introduce();
 
-    Person okay = new Person("okay",25,"meal");
+//    Person okay = new Person("okay",25,"meal");
   }
 }
