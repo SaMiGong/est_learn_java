@@ -1,4 +1,4 @@
-package Java0613;
+package Java0613.Java0613_1;
 
 public class InheritA {
   int field1;

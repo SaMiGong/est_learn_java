@@ -1,6 +1,4 @@
-package Java0613;
-
-import org.w3c.dom.ls.LSOutput;
+package Java0613.Java0613_1;
 
 public class Child extends Parent {
 
