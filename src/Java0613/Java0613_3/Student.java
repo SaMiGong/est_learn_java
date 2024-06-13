@@ -7,4 +7,6 @@ public class Student extends Person {
     super(name, ssn); // 부모의 생성자 호출
     this.studentNo = studentNO;
   }
+
+
 }
