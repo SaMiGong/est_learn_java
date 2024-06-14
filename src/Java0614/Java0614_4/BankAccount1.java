@@ -1,0 +1,12 @@
+package Java0614.Java0614_4;
+
+public class BankAccount1 {
+  private int balance;
+
+  public void withdraw(int amount) throws InsufficientBalanceException {
+    if (balance < amount) {
+      throw new InsufficientBalanceException("잔액이 부족합니다.");
+    }
+    balance -= amount;
+  }
+}
