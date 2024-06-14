@@ -4,7 +4,7 @@ public abstract class Phone {
     private String owner;
 
     public Phone(String owner){
-        this.owner;
+        String owner1 = this.owner;
     }
     public void trunOn(){
         System.out.println("폰 전원을 킵니다.");

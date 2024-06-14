@@ -7,5 +7,5 @@ public class Computer extends Calculator {
     System.out.println("Computer 객체의 areaCircle메서드 실행");
     return Math.PI * r * r;
   }
-  abstract void plus();
+//  abstract void plus();
 }
