@@ -29,15 +29,18 @@ public abstract class ShoppingMall {
 
   public void displayProducts() {
     for (int i = 0; i < products.length; i++) {
-      System.out.println(
-          "제품 이름: "
-              + products[i].getName()
-              + "제품 가격: "
-              + products[i].getPrice()
-              + "제고량: "
-              + products[i].getStock());
+      if (products[i] != null) {
+
+        System.out.println(
+            "제품 이름: "
+                + products[i].getName()
+                + "제품 가격: "
+                + products[i].getPrice()
+                + "제고량: "
+                + products[i].getStock());
+      }
     }
   }
 
-  public abstract boolean checkOrderAvailability(Product product);
+  public abstract boolean checkOrderAvailability(Product product); //
 }
