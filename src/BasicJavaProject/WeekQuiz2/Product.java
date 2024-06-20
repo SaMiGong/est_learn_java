@@ -35,7 +35,7 @@ public class Product {
     this.stock = stock;
   }
 
-  public double CalculatePrice() {
+  public double calculatePrice() {
     return price;
   }
 }

@@ -17,7 +17,7 @@ public class Electronics extends Product {
   }
 
   @Override
-  public double CalculatePrice() {
+  public double calculatePrice() {
     if (brand.equals("Apple")) {
       return getPrice() * 1.2; // 20퍼 추가
     }

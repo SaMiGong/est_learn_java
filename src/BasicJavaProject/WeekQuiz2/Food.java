@@ -17,7 +17,7 @@ public class Food extends Product {
   }
 
   @Override
-  public double CalculatePrice() {
+  public double calculatePrice() {
     if (expirationDate <= 7) {
       return getPrice() * 0.8; // 20퍼 할인
     }

@@ -16,8 +16,10 @@ public class Clothing extends Product {
     this.size = size;
   }
 
+
+
   @Override
-  public double CalculatePrice() {
+  public double calculatePrice() {
     if (size.equals("L") || size.equals("XL")) {
       return getPrice() * 1.1; // 10퍼 추가
     }
